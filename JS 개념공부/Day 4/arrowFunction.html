@@ -8,12 +8,12 @@
 </head>
 <body>
     <script>
-        function printHello(){
-            prompt("값을 입력하세요");
-            alert("환영합니다.");
+        function printAll(...args){
+            for(let i = 0; i< args.length; i++){
+                console.log(args[i]);
+            }
         }
-        printHello();
-        
+        printAll('인ㅇ','ㄴㅇㄹㄴㅇ','ㄴㅇㄹㄴㅇㄹ');
     </script>
 </body>
 </html>
