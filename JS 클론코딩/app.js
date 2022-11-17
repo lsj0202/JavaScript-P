@@ -1,9 +1,9 @@
-console.log('lalalalalal');
-console.log(5+2);
-console.log(5.3+5.2);
+const loginInput = document.querySelector('#login-form input');
+const loginButton= document.querySelector('#login-form button');
 
-const a = 5;
-const b=
-console.log(a + 2);
-console.log(a * 2);
-console.log(a / 2);
+function onLoginBtnClick(){
+    ocnsole.log('click!!!');
+}
+
+
+loginButton.addEventListener("click", )
